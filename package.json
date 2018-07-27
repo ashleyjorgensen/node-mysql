@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ashleyjorgensen/node-mysql/issues"
   },
-  "homepage": "https://github.com/ashleyjorgensen/node-mysql#readme"
+  "homepage": "https://github.com/ashleyjorgensen/node-mysql#readme",
+  "dependencies": {
+    "inquirer": "^6.0.0"
+  }
 }
