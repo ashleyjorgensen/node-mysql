@@ -1,4 +1,4 @@
-/* set up the required libraries/tools */
+// set up the required libraries/tools 
 var mysql = require("mysql");
 // const readline = require('readline');
 var inquirer = require('inquirer');
