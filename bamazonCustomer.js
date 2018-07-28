@@ -114,7 +114,7 @@ function checkInventory() {
     //then you will pass that information into the new amount and pass that into the update quantity. 
   }
   else {
-    //ifw e cannot fulfill the order console log please select another item
+    //if we cannot fulfill the order console log please select another item
     console.log("Unable to process; quantity insufficient. Please try again.");
     //then call queryAllItems function again
     queryAllItems();
@@ -123,7 +123,6 @@ function checkInventory() {
 }
 
 //updateInventory should take an ID and QTY and update the database (but not display any price/total/etc)
-//great bay activity update item in a database update query!
 function updateInventory(updateWhatId, updateWhatQty) {
   var index = itemIdArray.indexOf(updateWhatId);
   currentInventory[index].stock_quantity -= updateWhatQty;
@@ -146,32 +145,6 @@ function displayInventory() {
   }
 }
 
-//displayPurchaseTotal takes in purchaseId and purchaseQty and displays the total price (and nothing else)
-
-
-
-
-
-
-  // queryAllItems();
-  // rl.pause();
-
-  // /* ask the user what they want to buy */
-  // rl.question('What do you want to buy? ', (item_id) => {
-  //   // TODO: Log the answer in a database
-  //   console.log(`Thank you for your valuable feedback: ${item_id}`);
-  //    /* ask the user how many units */
-  //   rl.question('How many do you want to buy? ', (item_qty) => {
-  //     // TODO: Log the answer in a database
-  //     console.log(`Thank you for your valuable feedback: ${item_qty}`);
-  //     rl.close();
-  //   });
-  // });
-
-  // console.log("wocka wocka wocka");
-
-
-  // queryALlItems();
   
 
 
